@@ -126,7 +126,7 @@ if game.PlaceId == 2788229376 then
         end
     end
     
-    local closeRangeHitboxSize = 0.9
+    local closeRangeHitboxSize = 0.5
     
     local AllBodyParts = {
         "Head", "UpperTorso", "LowerTorso", "HumanoidRootPart", "LeftHand", "RightHand",
