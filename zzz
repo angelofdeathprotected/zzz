@@ -126,7 +126,7 @@ if game.PlaceId == 2788229376 then
         end
     end
     
-    local closeRangeHitboxSize = 0.5
+    local closeRangeHitboxSize = 0.9
     
     local AllBodyParts = {
         "Head", "UpperTorso", "LowerTorso", "HumanoidRootPart", "LeftHand", "RightHand",
@@ -1604,7 +1604,7 @@ else
     }    
     },
     DeeHood = {
-    ID = 99501493960558,
+    ID = 94505227944516,
     Details = {
       Name = "Dee Hood",
       Argument = "UpdateMousePosI",
