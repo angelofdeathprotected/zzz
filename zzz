@@ -1604,36 +1604,36 @@ else
     }    
     },
     DeeHood = {
-    ID = 94505227944516,
+    ID = 74508151295979,
     Details = {
       Name = "Dee Hood",
-      Argument = "UpdateMousePosI",
+      Argument = "b1fed8fc5",
       Remote = "MainEvent",
       BodyEffects = "K.O"
     }
     },
     DerHood = {
-    ID = 119024210985192,
+    ID = 103444329957784,
     Details = {
-      Name = "Dee Hood",
-      Argument = "UpdateMousePos",
-      Remote = "MainEvent",
+      Name = "Der Hood",
+      Argument = "DERHOODMOUSEPOS666^",
+      Remote = "MainRemoteEvent",
       BodyEffects = "K.O"
     }
     },
-    ARhood = {
-    ID = 98930372136494,
+    DeaHood = {
+    ID = 75871894939662,
     Details = {
-      Name = "AR hood",
-      Argument = "UpdateMousePos",
-      Remote = "MainEvent",
+      Name = "Dea Hood",
+      Argument = "DEAHOODMOUSEPOSx3^3",
+      Remote = "MainRemoteEvent",
       BodyEffects = "K.O"
     }
     },
-    OGDahood = {
-    ID = 76565633209271,
+    DasHood0Delay = {
+    ID = 115928489472637,
     Details = {
-      Name = "OG da hood",
+      Name = "Ugc",
       Argument = "UpdateMousePos",
       Remote = "MainEvent",
       BodyEffects = "K.O"
@@ -2100,4 +2100,10 @@ end
         pcall(function()
             onCharacterAdded(Local_Player.Character)
         end)
+    end
+    
+    
+    
+    
+    
     end
