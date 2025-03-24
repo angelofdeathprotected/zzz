@@ -2101,26 +2101,3 @@ end
             onCharacterAdded(Local_Player.Character)
         end)
     end
-
---> services
-local run_service = cloneref( game:GetService( "RunService" ) );
-
---> variables
-local arg; --> initialize as nil
-
---> get the arg
-for _,v in getconnections( run_service.Heartbeat ) do
-    if not v.Function then
-        continue;
-    end;
-
-    for idx, upvalue in debug.getupvalues( v.Function ) do
-        if type( upvalue ) ~= "string" then
-            continue;
-        end;
-
-        arg = upvalue;
-    end;
-end;
-
-print( arg );
