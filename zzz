@@ -1607,7 +1607,7 @@ else
     ID = 135247481110993,
     Details = {
       Name = "Dee Hood",
-      Argument = "b1fed8fc5",
+      Argument = "UpdateMousePos",
       Remote = "MainEvent",
       BodyEffects = "K.O"
     }
