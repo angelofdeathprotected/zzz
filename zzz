@@ -1473,7 +1473,7 @@ else
     ID = 9825515356,
     Details = {
       Name = "Hood Customs",
-      Argument = "MousePosUpdate",
+      Argument = "Shoot",
       Remote = "MainEvent"
     }
     },
