@@ -1601,15 +1601,7 @@ else
       Argument = "UpdateMousePos",
       Remote = "MainEvent",
       BodyEffects = "K.O"
-    }
-    AimTrainer = {
-    ID = 75159825516372,
-    Details = {
-      Name = "Aim Trainer",
-      Argument = "UpdateMousePos",
-      Remote = "MainEvent",
-      BodyEffects = "K.O"
-    }  
+    } 
     },
     DeeHood = {
     ID = 134241725072197,
